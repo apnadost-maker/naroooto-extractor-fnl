@@ -1,5 +1,5 @@
 from config import Config
-from database.naruto import *
+from database.naruto import API_ID API_HASH BOT_TOKEN
 from pyrogram import Client, idle
 import asyncio, logging
 
